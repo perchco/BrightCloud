@@ -1,24 +1,28 @@
 # BrightCloud
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'BrightCloud'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install BrightCloud
+A Ruby interface to the BrightCloud API.
 
 ## Usage
 
-TODO: Write usage instructions here
+### Setting Up
+
+Setting up BrightCloud is done via the `configure` method.
+
+```
+BrightCloud.configure do |b|                                
+  b.key = ENV['BRIGHTCLOUD_KEY']
+  b.secret = ENV['BRIGHTCLOUD_SECRET']
+end
+```
+
+### Typical Usage
+
+The `BrightCloud::CategoryFinder` object is used to determine which categories a URL belongs to.
+
+```
+finder = BrightCloud::CategoryFinder.new 'perch.co'
+finder.categories # => An array of BrightCloud::Category objects.
+```
 
 ## Contributing
 
