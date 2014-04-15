@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "brightcloud"
   spec.version       = BrightCloud::VERSION
   spec.authors       = ["Sam Symons"]
-  spec.email         = ["samsymons@me.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.email         = ["sam@samsymons.com"]
+  spec.summary       = %q{A Ruby interface to the BrightCloud API.}
+  spec.description   = %q{A Ruby interface to the BrightCloud API.}
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
