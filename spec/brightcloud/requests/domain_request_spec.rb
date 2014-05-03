@@ -1,4 +1,4 @@
-require_relative '../../../lib/brightcloud/requests/domain_request'
+require 'spec_helper'
 
 describe BrightCloud::Requests::DomainRequest do
 

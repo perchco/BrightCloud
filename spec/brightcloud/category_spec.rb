@@ -1,4 +1,4 @@
-require_relative '../../lib/brightcloud/category'
+require 'spec_helper'
 
 describe BrightCloud::Category do
 

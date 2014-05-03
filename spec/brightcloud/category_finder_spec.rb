@@ -1,5 +1,4 @@
 require 'spec_helper'
-require_relative '../../lib/brightcloud/category_finder'
 
 describe BrightCloud::CategoryFinder, :vcr do
 

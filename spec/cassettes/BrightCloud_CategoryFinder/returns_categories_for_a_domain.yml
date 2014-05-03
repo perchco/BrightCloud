@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://thor.brightcloud.com/rest/uris/perch.co?oauth_consumer_key=<BRIGHTCLOUD_KEY>&oauth_nonce=vSVXeQgnRd4zf4EAD1GGSL8b2UaEeDO1DW0bWrbD8&oauth_signature=iTjO7fquDJ%2BDyAUESiP3G71Pyu0=&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1397334498&oauth_version=1.0
+    uri: http://thor.brightcloud.com/rest/uris/perch.co?oauth_consumer_key=<BRIGHTCLOUD_KEY>&oauth_nonce=cM5mlymCz13zjbJeNhuFroLzva4Ev2sDrhfcSMEJo&oauth_signature=5i%2BJ74piPHD28lhKon4dF5/VDv4=&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1399154482&oauth_version=1.0
     body:
       encoding: US-ASCII
       string: ''
@@ -23,15 +23,15 @@ http_interactions:
       Server:
       - Microsoft-HTTPAPI/2.0
       Date:
-      - Sat, 12 Apr 2014 20:28:18 GMT
+      - Sat, 03 May 2014 22:01:22 GMT
     body:
       encoding: UTF-8
       string: "<?BrightCloud version=bcap/1.1?><bcap><response><status>200</status><statusmsg>OK</statusmsg><uri>perch.co</uri><categories><cat><catid>26</catid><conf>100</conf></cat><cat><catid>22</catid><conf>100</conf></cat></categories><bcri>50</bcri><a1cat>0</a1cat></response></bcap>"
     http_version: 
-  recorded_at: Sat, 12 Apr 2014 20:28:18 GMT
+  recorded_at: Sat, 03 May 2014 22:01:22 GMT
 - request:
     method: get
-    uri: http://thor.brightcloud.com/rest/uris/categories?oauth_consumer_key=<BRIGHTCLOUD_KEY>&oauth_nonce=JDq1AelBOunTyV9jtMdE24nEpd2YdKM1CtQpvcUz6g&oauth_signature=j0zythSszETsgEh2/uPb4wCzWPA=&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1397334498&oauth_version=1.0
+    uri: http://thor.brightcloud.com/rest/uris/categories?oauth_consumer_key=<BRIGHTCLOUD_KEY>&oauth_nonce=RotueYf1Bet2dVpdvrBjmWvv3aHSSbAobMHJxGgm8bc&oauth_signature=gl5H8MEo1inp29N1k/Z5t9kNy30=&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1399154482&oauth_version=1.0
     body:
       encoding: US-ASCII
       string: ''
@@ -52,7 +52,7 @@ http_interactions:
       Server:
       - Microsoft-HTTPAPI/2.0
       Date:
-      - Sat, 12 Apr 2014 20:28:18 GMT
+      - Sat, 03 May 2014 22:01:22 GMT
     body:
       encoding: UTF-8
       string: "<?BrightCloud version=bcap/1.1?><bcap><response><status>200</status><statusmsg>OK</statusmsg><categories><cat><catid>1</catid><catname>Real
@@ -118,5 +118,5 @@ http_interactions:
         Hosting Sites</catname><catgroup>Productivity</catgroup></cat><cat><catid>83</catid><catname>Food
         and Dining</catname><catgroup>Productivity</catgroup></cat></categories></response>\r\n</bcap>"
     http_version: 
-  recorded_at: Sat, 12 Apr 2014 20:28:19 GMT
-recorded_with: VCR 2.8.0
+  recorded_at: Sat, 03 May 2014 22:01:22 GMT
+recorded_with: VCR 2.9.0

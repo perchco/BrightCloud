@@ -1,6 +1,4 @@
 require 'spec_helper'
-require_relative '../../lib/brightcloud/requests/categories_request'
-require_relative '../../lib/brightcloud/category_parser'
 
 describe BrightCloud::CategoryParser, :vcr do
 

@@ -1,4 +1,4 @@
-require_relative '../../lib/brightcloud'
+require 'spec_helper'
 
 describe BrightCloud::Configuration do
   describe 'configuration' do
