@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe BrightCloud::Category do
-
   it 'can be initialized' do
     category = BrightCloud::Category.new '1', 'Name', 'Group'
 
@@ -9,5 +8,4 @@ describe BrightCloud::Category do
     expect(category.name).to eq 'Name'
     expect(category.group).to eq 'Group'
   end
-
 end
