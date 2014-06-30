@@ -1,4 +1,4 @@
-require 'brightcloud'
+require_relative '../lib/brightcloud'
 require 'dotenv'
 require 'rspec'
 require 'vcr'
